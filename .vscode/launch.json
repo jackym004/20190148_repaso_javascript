@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open reduce_filter_html.html",
+            "file": "c:\\Users\\HP\\OneDrive\\Documentos\\repaso_javascript_laptop\\20190148_repaso_javascript\\reduce_filter_html.html"
+        }
+    ]
+}
