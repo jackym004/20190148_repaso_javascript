@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Ejercicio 1</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='reduce_filter_css.css'>
-    <script src='reduce_filter_js.js'></script>
+    <link rel='stylesheet' type='text/css' href='../20190148_repaso_javascript/reduce_filter_css.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <h1>Reduce y Filter</h1>
+
+    <div class="container-fluid p-0 d-flex h-100">
+        <div class="reduce_filter" class="row">
+            <div class="reduce_filter-cards" class="col-md-6">
+                <div class="card_reduce">
+                    <div class="card_body_reduce">
+                        <h5 class="card_title_reduce">Reduce</h5>
+                        <p class="card_text_reduce">Reduce es un método que nos permite reducir un array a un solo
+                            valor.
+                            Este
+                            método recibe dos parámetros,
+                            el primero es una función que se encargará de realizar la operación y el segundo es el valor
+                            inicial.</p>
+                    </div>
+                </div>
+                <div class="card_filter">
+                    <div class="card_body_filter">
+                        <h5 class="card_title_filter">Filter</h5>
+                        <p class="card_text_filter">Filter es un método que nos permite filtrar los elementos de un
+                            array
+                            que
+                            cumplan con una condición. Este método recibe como parámetro una función que se encargará de
+                            realizar la condición.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src='reduce_filter_js.js'></script>
 </body>
+
 </html>

@@ -1,3 +1,21 @@
 body {
     background-color: rgb(201, 201, 201);
 }
+
+.card_filter{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    margin: red 20px;
+}
+
+.card_reduce{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    margin: red 20px;
+}

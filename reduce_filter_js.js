@@ -10,3 +10,11 @@ function mostrarGanadores(nombre, indice, arreglo) {
 }
 
 competidores.filter((nombre, indice, arreglo) => mostrarGanadores(nombre, indice, arreglo));
+
+// Array de números
+const numeros = [10, 20, 30, 40, 50];
+
+// Usamos reduce para obtener la suma de todos los números
+const suma = numeros.reduce((acumulador, numero) => acumulador + numero, 0);
+
+console.log(suma); // Output: 150
